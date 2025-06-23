@@ -12,6 +12,7 @@
     "npm:eslint-plugin-svelte@3": "3.9.3_eslint@9.29.0_svelte@5.34.7__acorn@8.15.0_postcss@8.5.6",
     "npm:eslint@^9.18.0": "9.29.0",
     "npm:globals@16": "16.2.0",
+    "npm:lucide-svelte@0.522": "0.522.0_svelte@5.34.7__acorn@8.15.0",
     "npm:svelte-check@4": "4.2.2_svelte@5.34.7__acorn@8.15.0_typescript@5.8.3",
     "npm:svelte@^5.25.0": "5.34.7_acorn@8.15.0",
     "npm:tailwindcss@4": "4.1.10",
@@ -1077,6 +1078,12 @@
     "lodash.merge@4.6.2": {
       "integrity": "sha512-0KpjqXRVvrYyCsX1swR/XTK0va6VQkQM6MNo7PqW77ByjAhoARA8EfrP1N4+KlKj8YS0ZUCtRT/YUuhyYDujIQ=="
     },
+    "lucide-svelte@0.522.0_svelte@5.34.7__acorn@8.15.0": {
+      "integrity": "sha512-5/Xrf9kx60WaqLqyEFvJVh3HEi6t05PFTNczYsMkH4AQPKr2BW7HctlgDYfUwScz0/OHVlHG+gfgklymMtK2UQ==",
+      "dependencies": [
+        "svelte"
+      ]
+    },
     "magic-string@0.30.17": {
       "integrity": "sha512-sNPKHvyjVf7gyjwS4xGTaW/mCnF8wnjtifKBEhxfZ7E/S8tQ0rssrwGNn6q8JH/ohItJfSQp9mBtQYuTlH5QnA==",
       "dependencies": [
@@ -1470,6 +1477,7 @@
         "npm:eslint-plugin-svelte@3",
         "npm:eslint@^9.18.0",
         "npm:globals@16",
+        "npm:lucide-svelte@0.522",
         "npm:svelte-check@4",
         "npm:svelte@^5.25.0",
         "npm:tailwindcss@4",
